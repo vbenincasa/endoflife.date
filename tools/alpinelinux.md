@@ -11,6 +11,8 @@ activeSupportColumn: false
 command: cat /etc/alpine-release
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  git: git+https://git.alpinelinux.org/aports
 releases:
   - releaseCycle: 'v3.14'
     release: 2021-06-15

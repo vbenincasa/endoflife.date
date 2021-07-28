@@ -7,6 +7,8 @@ activeSupportColumn: true
 command: composer show symfony/symfony | grep versions
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: symfony/symfony
 releases:
   - releaseCycle: "5.3"
     release: 2021-05-31

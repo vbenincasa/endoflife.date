@@ -8,6 +8,8 @@ activeSupportColumn: false
 releaseColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  docker: debian
 releases:
   - releaseCycle: 'Debian 10 "Buster"'
     release: 2019-07-06

@@ -8,6 +8,8 @@ releaseDateColumn: true
 command: lsb_release -d
 sortReleasesBy: 'releaseCycle'
 changelogTemplate: https://fedoraproject.org/wiki/Releases/__LATEST__/Schedule
+auto:
+  docker: fedora
 releases:
   # feature release 35 expected on 2021-10-27 -> calculate EoL of 33
   #- releaseCycle: "35"

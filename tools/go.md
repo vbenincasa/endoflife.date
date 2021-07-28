@@ -10,6 +10,8 @@ eolColumn: Supported
 command: go version
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+auto:
+  github: golang/go
 releases:
   - releaseCycle: "1.16"
     release: 2021-02-16

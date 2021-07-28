@@ -7,6 +7,8 @@ link: https://www.ruby-lang.org/en/downloads/releases/
 releaseDateColumn: true
 eolColumn: Support Status
 sortReleasesBy: 'release'
+auto:
+  github: ruby/ruby
 releases:
   - releaseCycle: "3.0"
     release: 2020-12-25

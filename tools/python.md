@@ -6,6 +6,8 @@ command: python --version
 link: https://devguide.python.org/
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: python/cpython
 releases:
     - releaseCycle: "3.9"
       release: 2020-10-05

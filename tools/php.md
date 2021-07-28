@@ -8,6 +8,9 @@ activeSupportColumn: true
 command: php --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: php/php-src
+  tagprefix: php-
 releases:
   - releaseCycle: "8.0"
     cycleShortHand: "8"
